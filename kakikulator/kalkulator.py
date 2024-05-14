@@ -69,34 +69,34 @@ def createApp():
     def equalButton():
         # Addition
         if operation_mode.get() == 0:
-            result.set(buffer.get() + float(formula.get()))
+            result.set(round(buffer.get() + float(formula.get()), 6))
             flushMem()
 
             
         # Substraction
         elif operation_mode.get() == 1:
-            result.set(buffer.get() - float(formula.get()))
+            result.set(round(buffer.get() - float(formula.get()), 6))
             flushMem()
 
 
         # Multiplication
         elif operation_mode.get() == 2:
-            result.set(buffer.get() * float(formula.get()))
+            result.set(round(buffer.get() * float(formula.get()), 6))
             flushMem()
 
         # Division
         elif operation_mode.get() == 3:
-            result.set(buffer.get() / float(formula.get()))
+            result.set(round(buffer.get() / float(formula.get()), 6))
             flushMem()
 
         # Percentage    
         elif operation_mode.get() == 4:
-            result.set(buffer.get() * (float(formula.get()) * 10**-2))
+            result.set(round(buffer.get() * (float(formula.get()) * 10**-2), 6))
             flushMem()
 
         # Exponentiation
         elif operation_mode.get() == 5:
-            result.set(buffer.get() ** float(formula.get()))
+            result.set(round(buffer.get() ** float(formula.get()), 6))
             flushMem()
 
 
