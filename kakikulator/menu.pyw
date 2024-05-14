@@ -17,7 +17,6 @@ width = 600
 height = 600
 
 root.geometry(f'{width}x{height}+300+300')
-root.iconbitmap('tools.ico')
 root.title("Menu")
 
 
