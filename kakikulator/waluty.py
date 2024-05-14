@@ -8,7 +8,6 @@ def createApp():
     window = ctk.CTk(fg_color='#50BFAB')
     window.geometry('340x600')
     window.title('Konwerter walut')
-    window.iconbitmap('money.ico')
 
     c = CurrencyConverter()
     submit = ''
