@@ -104,7 +104,6 @@ def createApp():
 
     # ROOT WINDOW SETUP
     root.title('Kalkulator')
-    root.iconbitmap('kalkulator.ico')
     root.geometry('400x600')
     root.resizable(False, False)
     root.attributes('-topmost', True)
