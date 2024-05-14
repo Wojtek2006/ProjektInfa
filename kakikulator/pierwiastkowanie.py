@@ -7,7 +7,6 @@ def createApp():
             #window setup
             super().__init__(fg_color = GREEN)
             self.title('Pierwiastkowanie')
-            self.iconbitmap('square_root.ico')
             self.geometry('400x400')
             self.resizable(False, False)
             self.attributes('-topmost', True)
