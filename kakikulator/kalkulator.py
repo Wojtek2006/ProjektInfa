@@ -1,6 +1,5 @@
 # IMPORTS
 import customtkinter as ctk
-from PIL import Image
 
 # ROOT WINDOW CREATION
 def createApp():
