@@ -1,3 +1,11 @@
 Link do dokumentacji:
 https://docs.google.com/document/d/1txFRlbrglMDfyx7YM8UiM9kejcwvo0YmwlBIUIXRHlc/edit?fbclid=IwAR34E3GQHVpriHx5aHwBZxOI2rMVWUS_QxMYlH42VgWcq-8sazkzEn_2lew
 
+Aby skorzystać z programu należy pobrać menedżer pakietów pythona (PIP):
+https://www.geeksforgeeks.org/how-to-install-pip-on-windows/
+
+Oraz należy zainstalować pakiety:
+pip install customtkinter
+pip install CurrencyConverter
+
+obie komendy należy wpisać w CMD!.
