@@ -14,7 +14,6 @@ def createApp():
             self.geometry('400x400')
             self.resizable(False,False)
             self.change_title_bar_color()
-            self.iconbitmap('bmi.ico')
 
             self.columnconfigure(0, weight = 1)
             self.rowconfigure((0,1,2,3),weight = 1, uniform = 'a')
