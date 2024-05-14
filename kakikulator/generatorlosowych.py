@@ -7,7 +7,6 @@ def createApp():
         def __init__(self):
             super().__init__(fg_color=GREEN)
             self.title('Randomizer')
-            self.iconbitmap('dice.ico')
             self.geometry('400x400')
             self.resizable(False, False)
 
