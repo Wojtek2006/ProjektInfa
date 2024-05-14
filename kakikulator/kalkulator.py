@@ -110,12 +110,12 @@ def createApp():
 
 
     # UPPER FRAME SETUP ( DISPLAY SETUP ) 
-    display = ctk.CTkFrame(root, fg_color="black", height=200)
+    display = ctk.CTkFrame(root, fg_color="white", height=200)
     display.place(x = 0, y = 0, relwidth = 1, relheight = 0.3)
 
     # UPPER FRAME RESULT AND FORMULA LABELS
-    result_label = ctk.CTkLabel(display, text_color="white", font=display_font, textvariable = result)
-    formula_label = ctk.CTkLabel(display, text_color="white", font=display_font, textvariable = formula)
+    result_label = ctk.CTkLabel(display, text_color="black", font=display_font, textvariable = result)
+    formula_label = ctk.CTkLabel(display, text_color="black", font=display_font, textvariable = formula)
 
     # DISPLAY GRID CONFIG
     display.columnconfigure(0, weight=1)
